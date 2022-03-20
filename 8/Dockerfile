@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 
 RUN apt-get update; \
-    apt-get install -y curl unzip libgit2-dev; \
+    apt-get install -y curl unzip libgit2-dev zlib1g; \
     cd opt; \
     mkdir pharo; \
     cd pharo; \
