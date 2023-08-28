@@ -31,3 +31,10 @@ jobs:
         push: true
         tags: vitormcruz/pharo:9
 
+    - name: Build Pharo 11 Docker Pushing Image to Repo
+      uses: docker/build-push-action@v2
+      with:
+        context: 11/
+        push: true
+        tags: vitormcruz/pharo:11
+
