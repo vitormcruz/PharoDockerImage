@@ -1,7 +1,7 @@
 FROM ubuntu:22.04
 
 RUN apt-get update; \
-    apt-get install -y curl unzip libgit2-dev zlib1g; \
+    apt-get install -y curl unzip; \
     cd opt; \
     mkdir pharo; \
     cd pharo; \
